@@ -282,4 +282,7 @@ h3,h4,h5{
     button{
       width: 100px !important;
     }
+    body{
+      width: auto;
+    }
   }
