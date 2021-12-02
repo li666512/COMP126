@@ -19,8 +19,9 @@ body{
    "basketball"
    "football"
    "footer";
-   height: 2000px;
-    
+  
+   
+   
    }
 
 
@@ -111,7 +112,7 @@ h2{
 }
 h4{
   position: relative;
-  left: 120px;
+  top: 120px;
   opacity: 0.5;
 }
 .uncfootball{
@@ -142,7 +143,7 @@ h3,h4,h5{
   }
 
 .ballbutton{
-  width: 400px;
+  width: 2;
   background-color: #7bafd4;
 }
   .ball {
@@ -249,7 +250,7 @@ h3,h4,h5{
     bottom: 100px;
     margin-left: 35%;
   }
-  @media only screen and (min-width: 1200px){
+  @media only screen and (min-width: 1000px){
 
     body{
 
@@ -261,13 +262,13 @@ h3,h4,h5{
       "basketball basketball . football football"
       "footer footer footer footer footer";
 
-     max-width: 100%;
+      max-width: 100%;
 
   }
   .video{
     z-index: 2;
   }
-  
+ 
   header{
     position: relative;
   }
@@ -278,14 +279,4 @@ h3,h4,h5{
 
 
   }
-  @media only screen and (max-width: 1000px){
-    button{
-      width: 100px !important;
-    }
-    body{
-     max-width: 926px;
-    }
-    .intro::before{
-      max-width: 926px;
-    }
-  }
+
