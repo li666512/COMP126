@@ -285,4 +285,7 @@ h3,h4,h5{
     body{
      max-width: 926px;
     }
+    .intro::before{
+      max-width: 926px;
+    }
   }
