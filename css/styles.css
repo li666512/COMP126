@@ -249,7 +249,7 @@ h3,h4,h5{
     bottom: 100px;
     margin-left: 35%;
   }
-  @media only screen and (min-width: 950px){
+  @media only screen and (min-width: 1200px){
 
     body{
 
@@ -278,7 +278,7 @@ h3,h4,h5{
 
 
   }
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 1000px){
     button{
       width: 100px !important;
     }
