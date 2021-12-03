@@ -32,7 +32,7 @@ nav{
 button{
   justify-content: center;
   height: 80px;
-  width: 150px;
+  width: 120px;
   font-size: medium;
   margin-left: 100px;
   transition: all .5s ease;
@@ -133,7 +133,7 @@ h3,h4,h5{
   color: gray;
 }
 #nclogo{
-    height: 100px;
+    max-height: 100px;
     
 }
 .basketball, .football {
