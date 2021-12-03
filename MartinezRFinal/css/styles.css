@@ -20,6 +20,23 @@ justify-content: flex-start;
   font-size: .8rem;
   padding: .4rem
 }
+button{
+  justify-content: center;
+  height: 80px;
+  width: 150px;
+  font-size: medium;
+  margin-left: 100px;
+  transition: all .5s ease;
+  background-color: #7bafd4;
+  color: white;
+  border-radius: 15px;
+ 
+}
+button:hover,
+button:focus {
+  color: #001F3F;
+  background-color: #fff;
+}
 
 .social {
   display: grid;
